@@ -1,0 +1,33 @@
+{
+  "name": "replaceify",
+  "version": "0.0.0",
+  "description": "browserify transform to replace globbed files]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/replaceify.git"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "transform",
+    "glob",
+    "replace"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/replaceify/issues"
+  },
+  "homepage": "https://github.com/quarterto/replaceify",
+  "dependencies": {
+    "through": "^2.3.4",
+    "minimatch": "^0.2.14"
+  },
+  "peerDependencies": {
+    "browserify": "^3.26"
+  }
+}
