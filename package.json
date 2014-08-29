@@ -28,6 +28,6 @@
     "minimatch": "^0.2.14"
   },
   "peerDependencies": {
-    "browserify": "^3.26"
+    "browserify": ">=3.26 <6"
   }
 }
